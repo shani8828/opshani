@@ -9,10 +9,55 @@ import img8 from "../assets/GuestLectures/Pallavi-Gupta-Bhowmick.webp";
 import img9 from "../assets/GuestLectures/Papli-Banerjee.webp";
 import img10 from "../assets/GuestLectures/Deepa-Duraisamy.webp";
 
-
-export const guestLectures = [
+export const guests=[
   {
-    id: "0",
+    title:"Chief Guest",
+    img:"src/assets/GuestLectures/sk_nayak.png",
+    name:"Shri S K Nayak",
+    designation:"Director of PXE Lab, DRDO",
+    linkedin:"https://www.drdo.gov.in/drdo/labs-and-establishments/proof-experimental-establishment-pxe"
+  },
+  {
+    title:"Guest of Honor",
+    img:"src/assets/GuestLectures/Sanjoy_Chatterjee.jpeg",
+    name:"Shri Sanjoy Chatterjee",
+    designation:"Chair of NASSCOM, Regional Council-East",
+    linkedin:"https://www.linkedin.com/in/sanjoynet/"
+  }
+]
+export const guestLectures = [
+  // {
+  //   id: "0",
+  //   imgUrl: img1,
+  //   name: "Shri S K Nayak (Chief Guest)",
+  //   designation: "Director of PXE Lab, DRDO",
+  //   company: null,
+  //   topic: null,
+  //   desc: "",
+  //   linkedin: "",
+  //   companyUrl: null,
+  //   path: "/Rajesh-Kumar",
+  //   onlineMeetLink: null,
+  //   date: "04:30pm | 7th March, Opening Ceremony",
+  //   mode: "Netaji Auditorium",
+  // },
+  // {
+  //   id: "1",
+  //   imgUrl: "src/assets/GuestLectures/Sanjoy_Chatterjee.jpeg",
+  //   name: "Shri Sanjoy Chatterjee (Guest of Honor)",
+  //   designation: "Chair of NASSCOM, Regional Council-East",
+  //   company: null,
+  //   topic: null,
+  //   desc: "",
+  //   linkedin: "https://www.linkedin.com/in/sanjoynet/",
+  //   companyUrl: null,
+  //   path: "/Rajesh-Kumar",
+  //   onlineMeetLink: null,
+  //   date: "04:30pm | 7th March, Opening Ceremony",
+  //   mode: "Netaji Auditorium",
+  // },
+  {
+    id: "2",
     imgUrl: img1,
     name: "Dr. Rajesh Kumar",
     designation: "Director, Business Analytics",
@@ -27,7 +72,7 @@ export const guestLectures = [
     mode: "MS Teams(online)",
   },
   {
-    id: "1",
+    id: "3",
     imgUrl: img2,
     name: "Dr. Arvind Kumar",
     designation: "Senior Advisor",
@@ -42,7 +87,7 @@ export const guestLectures = [
     mode: null,
   },
   {
-    id: "2",
+    id: "4",
     imgUrl: img3,
     name: "Nitish Kumar",
     designation: "Head Analyst",
@@ -57,7 +102,7 @@ export const guestLectures = [
     mode: null,
   },
   {
-    id: "3",
+    id: "5",
     imgUrl: img4,
     name: "Dr. Anindita Desarkar",
     designation: "Director",
@@ -72,7 +117,7 @@ export const guestLectures = [
     mode: null,
   },
   {
-    id: "4",
+    id: "6",
     imgUrl: img5,
     name: "Diptiman Dasgupta",
     designation: "Associate Director & Executive IT Architect",
@@ -87,7 +132,7 @@ export const guestLectures = [
     mode: null,
   },
   {
-    id: "5",
+    id: "7",
     imgUrl: img6,
     name: "Suman Das",
     designation: "Digital Transformation Leader",
@@ -102,7 +147,7 @@ export const guestLectures = [
     mode: null,
   },
   {
-    id: "6",
+    id: "8",
     imgUrl: img7,
     name: "Saptaswa Sarkar",
     designation: "Product Manager & Senior Architect",
@@ -117,7 +162,7 @@ export const guestLectures = [
     mode: null,
   },
   {
-    id: "7",
+    id: "9",
     imgUrl: img8,
     name: "Pallavi Gupta Bhowmick",
     designation: "Managing Director",
@@ -132,7 +177,7 @@ export const guestLectures = [
     mode: null,
   },
   {
-    id: "8",
+    id: "10",
     imgUrl: img9,
     name: "Papli Banerjee",
     designation: "Director Business Analytics & GM India office, Amplify Analytix",
@@ -147,7 +192,7 @@ export const guestLectures = [
     mode: null,
   },
   {
-    id: "9",
+    id: "11",
     imgUrl: img10,
     name: "Deepa Duraisamy",
     designation: "Head of Data, Edelweiss Life Insurance",
@@ -156,6 +201,21 @@ export const guestLectures = [
     desc: "Deepa Duraisamy is an accomplished data professional with over 2 decades of industry experience across domains of banking, insurance and FMCG. In her role as Head of Data at Edelweiss Life Insurance she, along with her team, takes on and delivers initiatives that significantly improve customer experience, enable business growth and streamline operations. She has a track record of running large delivery programs, globally executed at scale, across data management and analytics. As a change agent she believes in fostering a collaborative, tech enabled environment, managing stakeholder relationships and employee engagement.",
     linkedin: "https://www.linkedin.com/in/deepa-duraisamy/",
     path: "/Deepa-Duraisamy",
+    companyUrl: null,
+    onlineMeetLink: null,
+    date: null,
+    mode: null,
+  },
+  {
+    id: "12",
+    imgUrl: "src/assets/GuestLectures/Tanushyam_Chattopadhyay.png",
+    name: "Dr. Tanushyam Chattopadhyay",
+    designation: "Practice Head Computer Vision, Sirius Digitech",
+    company: null,
+    topic: "Seeing the future : Innovations & Applications in Computer Vision",
+    desc: "Exploring the cutting-edge advancements in computer vision, this guide delves into breakthrough technologies, AI-driven enhancements, and real-world applications transforming industries. From autonomous systems to medical imaging and smart surveillance, discover how machine perception is reshaping the future, driving automation, and revolutionizing human-computer interaction with unprecedented accuracy and efficiency.",
+    linkedin: "https://www.linkedin.com/in/tanushyam-chattopadhyay-80291a11?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    path: "/Tanush-Chattopadhyay",
     companyUrl: null,
     onlineMeetLink: null,
     date: null,
