@@ -8,6 +8,7 @@ import img7 from "../assets/GuestLectures/Saptaswa_Sarkar.webp";
 import img8 from "../assets/GuestLectures/Pallavi-Gupta-Bhowmick.webp";
 import img9 from "../assets/GuestLectures/Papli-Banerjee.webp";
 import img10 from "../assets/GuestLectures/Deepa-Duraisamy.webp";
+import img11 from "../assets/GuestLectures/Tanushyam_Chattopadhyay.png";
 
 import imgChiefGuest from "../assets/GuestLectures/sk_nayak.png";
 import imgGuestOfHonor from "../assets/GuestLectures/Sanjoy_Chatterjee.jpeg";
@@ -211,7 +212,7 @@ export const guestLectures = [
   },
   {
     id: "12",
-    imgUrl: "src/assets/GuestLectures/Tanushyam_Chattopadhyay.png",
+    imgUrl: img11,
     name: "Dr. Tanushyam Chattopadhyay",
     designation: "Practice Head Computer Vision, Sirius Digitech",
     company: null,
