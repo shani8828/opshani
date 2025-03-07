@@ -1,6 +1,6 @@
 import React from "react";
-import "../components/OptimaCss/Timeline.css";
-import timelineDataDay1 from "../constants/Day1.js";
+import "../components/OptimaCss/Schedule.css";
+import scheduleDataDay1 from "../constants/Day1.js";
 import ComingSoon from "./design/ComingSoon";
 
 const Day1 = () => {
@@ -9,7 +9,7 @@ const Day1 = () => {
 			{/* <div className="flex justify-center">
         <ComingSoon />
       </div> */}
-			{timelineDataDay1.map((event) => (
+			{scheduleDataDay1.map((event) => (
 				<div
 					key={event.id}
 					className={`tl-container ${event.position}-container`}
@@ -22,7 +22,7 @@ const Day1 = () => {
 						/>
 					) : (
 						<img
-							src={"assets/Timeline/optima-logo.png"}
+							src={"assets/schedule/optima-logo.png"}
 							alt={event.title}
 							className="rounded-full border border-gray-300 bg-white backdrop-blur-lg"
 						/>

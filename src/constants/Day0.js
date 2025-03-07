@@ -1,4 +1,4 @@
-const timelineDataDay0 = [
+const scheduleDataDay0 = [
 	{
 		id: 1,
 		title: "Opening Ceremony",
@@ -29,4 +29,4 @@ const timelineDataDay0 = [
 	// },
 ];
 
-export default timelineDataDay0;
+export default scheduleDataDay0;

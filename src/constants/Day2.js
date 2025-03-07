@@ -1,11 +1,11 @@
-const timelineDataDay2 = [
+const scheduleDataDay2 = [
 	{
 		id: 0,
 		title: "Operheimer Slot-II",
 		time: "09:00 AM",
 		location: "QEDM, Department of Industrial and Systems Engineering",
 		link: "https://maps.app.goo.gl/WiBZ3Af6SkEHMK2p9",
-		image: "assets/Timeline/Operheimer.png",
+		image: "assets/schedule/Operheimer.png",
 		position: "left",
 	},
 	{
@@ -14,7 +14,7 @@ const timelineDataDay2 = [
 		time: "09:00 AM",
 		location: "NR-312, Nalanda Classroom Complex",
 		link: "https://maps.app.goo.gl/4E9RiAob3fenRGjj9",
-		image: "assets/Timeline/Stratathon.png",
+		image: "assets/schedule/Stratathon.png",
 		position: "right",
 	},
 	{
@@ -23,7 +23,7 @@ const timelineDataDay2 = [
 		time: "09:30 AM",
 		location: "Seminar Room, Dept. of Industrial and Systems Engg.",
 		link: "https://maps.app.goo.gl/WiBZ3Af6SkEHMK2p9",
-		image: "assets/Timeline/HackTank.png",
+		image: "assets/schedule/HackTank.png",
 		position: "left",
 	},
 	{
@@ -32,7 +32,7 @@ const timelineDataDay2 = [
 		time: "10:30 AM",
 		location: "Raman Auditorium",
 		link: "https://maps.app.goo.gl/kvrZb65Pt98DjLN8A",
-		image: "assets/Timeline/LiveAI.png",
+		image: "assets/schedule/LiveAI.png",
 		position: "right",
 	},
 	{
@@ -41,7 +41,7 @@ const timelineDataDay2 = [
 		time: "11:30 PM",
 		location: "E1, Department of Industrial & Systems Engg.",
 		link: "https://maps.app.goo.gl/WiBZ3Af6SkEHMK2p9",
-		image: "assets/Timeline/Datavantage.png",
+		image: "assets/schedule/Datavantage.png",
 		position: "left",
 	},
 	{
@@ -50,7 +50,7 @@ const timelineDataDay2 = [
 		time: "02:00 PM",
 		location: "QEDM, Department of Industrial and Systems Engineering",
 		link: "https://maps.app.goo.gl/WiBZ3Af6SkEHMK2p9",
-		image: "assets/Timeline/Strategy_Sutram.png",
+		image: "assets/schedule/Strategy_Sutram.png",
 		position: "right",
 	},
 	{
@@ -68,7 +68,7 @@ const timelineDataDay2 = [
 		time: "03:00 PM",
 		location: "Raman Auditorium",
 		link: "https://maps.app.goo.gl/kvrZb65Pt98DjLN8A",
-		image: "assets/Timeline/ArvindKumar.png",
+		image: "assets/schedule/ArvindKumar.png",
 		position: "right",
 	},
 	{
@@ -109,4 +109,4 @@ const timelineDataDay2 = [
 	// },
 ];
 
-export default timelineDataDay2;
+export default scheduleDataDay2;

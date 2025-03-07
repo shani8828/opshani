@@ -1,12 +1,12 @@
 import React from "react";
-import "../components/OptimaCss/Timeline.css";
-import timelineDataDay0 from "../constants/Day0.js";
+import "../components/OptimaCss/Schedule.css";
+import scheduleDataDay0 from "../constants/Day0.js";
 import { FaLocationDot } from "react-icons/fa6";
 
 const Day0 = () => {
 	return (
 		<div className="tl tl-day0">
-			{timelineDataDay0.map((event) => (
+			{scheduleDataDay0.map((event) => (
 				<div
 					key={event.id}
 					className={`tl-container ${event.position}-container`}
@@ -19,7 +19,7 @@ const Day0 = () => {
 						/>
 					) : (
 						<img
-							src={"assets/Timeline/optima-logo.png"}
+							src={"assets/schedule/optima-logo.png"}
 							alt={event.title}
 							className="rounded-full border border-gray-300 bg-white backdrop-blur-lg"
 						/>
