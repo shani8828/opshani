@@ -11,9 +11,9 @@ const scheduleDataDay0 = [
 	{
 		id: 2,
 		title: "HackTank Mixer",
-		time: "08:00 PM",
-		location: "In front of Dept. of Industrial & Systems Engg.",
-		link: "https://maps.app.goo.gl/USTHoae3Dnx4t4Nj9",
+		time: "09:30 PM",
+		location: "OPTIMA Arena, near NetaJi Auditorium",
+		link: "https://maps.app.goo.gl/czHQcdhZBnsAUXBd6",
 		image: null,
 		position: "right",
 	},
