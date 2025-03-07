@@ -5,7 +5,7 @@ const timelineDataDay1 = [
 		time: "09:00 AM",
 		location: "Seminar Room, Dept. of Industrial & Systems Engg.",
 		link: "https://maps.app.goo.gl/USTHoae3Dnx4t4Nj9",
-		image: "src/assets/Timeline/Innovate-X.png",
+		image: "assets/Timeline/Innovate-X.png",
 		position: "left",
 	},
 	{
@@ -14,7 +14,7 @@ const timelineDataDay1 = [
 		time: "10:00 AM",
 		location: "NR-311, Nalanda Classroom Complex",
 		link: "https://maps.app.goo.gl/4E9RiAob3fenRGjj9",
-		image: "src/assets/Timeline/DecisionOpt-WS.png",
+		image: "assets/Timeline/DecisionOpt-WS.png",
 		position: "right",
 	},
 	{
@@ -23,7 +23,7 @@ const timelineDataDay1 = [
 		time: "11:30 AM",
 		location: "ORDS Lab, Dept. of Industrial & Systems Engg.",
 		link: "https://maps.app.goo.gl/USTHoae3Dnx4t4Nj9",
-		image: "src/assets/Timeline/CodeOps.png",
+		image: "assets/Timeline/CodeOps.png",
 		position: "left",
 	},
 	{
@@ -32,7 +32,7 @@ const timelineDataDay1 = [
 		time: "11:30 AM",
 		location: "C3, Dept. of Industrial & Systems Engg.",
 		link: "https://maps.app.goo.gl/USTHoae3Dnx4t4Nj9",
-		image: "src/assets/Timeline/Strategy_Sutram.png",
+		image: "assets/Timeline/Strategy_Sutram.png",
 		position: "right",
 	},
 	{
@@ -50,7 +50,7 @@ const timelineDataDay1 = [
 		time: "02:00 PM",
 		location: "Seminar Room, Dept. of Industrial & Systems Engg.",
 		link: "https://maps.app.goo.gl/USTHoae3Dnx4t4Nj9",
-		image: "src/assets/Timeline/Innovate-X.png",
+		image: "assets/Timeline/Innovate-X.png",
 		position: "right",
 	},
 	{
@@ -59,7 +59,7 @@ const timelineDataDay1 = [
 		time: "02:00 PM",
 		location: "NR-311, Nalanda Classroom Complex",
 		link: "https://maps.app.goo.gl/4E9RiAob3fenRGjj9",
-		image: "src/assets/Timeline/Stratathon.png",
+		image: "assets/Timeline/Stratathon.png",
 		position: "left",
 	},
 	{
@@ -68,7 +68,7 @@ const timelineDataDay1 = [
 		time: "02:00 PM",
 		location: "Raman Auditorium",
 		link: "https://maps.app.goo.gl/kvrZb65Pt98DjLN8A",
-		image: "src/assets/Timeline/Anindita.png",
+		image: "assets/Timeline/Anindita.png",
 		position: "right",
 	},
 	{
@@ -77,7 +77,7 @@ const timelineDataDay1 = [
 		time: "02:30 PM",
 		location: "E1, Department of Industrial & Systems Engineering",
 		link: "https://maps.app.goo.gl/WiBZ3Af6SkEHMK2p9",
-		image: "src/assets/Timeline/Datavantage.png",
+		image: "assets/Timeline/Datavantage.png",
 		position: "left",
 	},
 	{
@@ -86,7 +86,7 @@ const timelineDataDay1 = [
 		time: "04:00 PM",
 		location: "Raman Auditorium",
 		link: "https://maps.app.goo.gl/kvrZb65Pt98DjLN8A",
-		image: "src/assets/GuestLectures/Nitish_kumar.webp",
+		image: "assets/GuestLectures/Nitish_kumar.webp",
 		position: "right",
 	},
 	{
@@ -95,7 +95,7 @@ const timelineDataDay1 = [
 		time: "05:30 PM",
 		location: "Seminar Room, Dept. of Industrial and Systems Engg.",
 		link: "https://maps.app.goo.gl/WiBZ3Af6SkEHMK2p9",
-		image: "src/assets/Timeline/Operheimer.png",
+		image: "assets/Timeline/Operheimer.png",
 		position: "left",
 	},
 	{
@@ -104,7 +104,7 @@ const timelineDataDay1 = [
 		time: "06:00 PM",
 		location: "Raman Auditorium",
 		link: "https://maps.app.goo.gl/kvrZb65Pt98DjLN8A",
-		image: "src/assets/Timeline/Hire3x.png",
+		image: "assets/Timeline/Hire3x.png",
 		position: "right",
 	},
 	{

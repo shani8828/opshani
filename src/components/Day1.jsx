@@ -22,7 +22,7 @@ const Day1 = () => {
 						/>
 					) : (
 						<img
-							src={"src/assets/Timeline/Untitled design.png"}
+							src={"assets/Timeline/optima-logo.png"}
 							alt={event.title}
 							className="rounded-full border border-gray-300 bg-white backdrop-blur-lg"
 						/>
