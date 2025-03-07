@@ -47,7 +47,7 @@ const scheduleDataDay1 = [
 	{
 		id: 6,
 		title: "Innovate-X Slot-II",
-		time: "02:00 PM",
+		time: "01:30 PM",
 		location: "Seminar Room, Dept. of Industrial & Systems Engg.",
 		link: "https://maps.app.goo.gl/USTHoae3Dnx4t4Nj9",
 		image: "assets/schedule/Innovate-X.png",

@@ -18,13 +18,13 @@ const Day1 = () => {
 						<img
 							src={event.image}
 							alt={event.title}
-							className="rounded-full border border-orange-700 bg-white backdrop-blur-lg"
+							className="rounded-full bg-white backdrop-blur-lg"
 						/>
 					) : (
 						<img
 							src={"assets/schedule/optima-logo.png"}
 							alt={event.title}
-							className="rounded-full border border-gray-300 bg-white backdrop-blur-lg"
+							className="rounded-full bg-white backdrop-blur-lg"
 						/>
 					)}
 					<div className="tl-text-box">
