@@ -9,17 +9,20 @@ import img8 from "../assets/GuestLectures/Pallavi-Gupta-Bhowmick.webp";
 import img9 from "../assets/GuestLectures/Papli-Banerjee.webp";
 import img10 from "../assets/GuestLectures/Deepa-Duraisamy.webp";
 
+import imgChiefGuest from "../assets/GuestLectures/sk_nayak.png";
+import imgGuestOfHonor from "../assets/GuestLectures/Sanjoy_Chatterjee.jpeg";
+
 export const guests=[
   {
     title:"Chief Guest",
-    img:"src/assets/GuestLectures/sk_nayak.png",
+    img:imgChiefGuest,
     name:"Shri S K Nayak",
     designation:"Director of PXE Lab, DRDO",
     linkedin:"https://www.drdo.gov.in/drdo/labs-and-establishments/proof-experimental-establishment-pxe"
   },
   {
     title:"Guest of Honor",
-    img:"src/assets/GuestLectures/Sanjoy_Chatterjee.jpeg",
+    img:imgGuestOfHonor,
     name:"Shri Sanjoy Chatterjee",
     designation:"Chair of NASSCOM, Regional Council-East",
     linkedin:"https://www.linkedin.com/in/sanjoynet/"
