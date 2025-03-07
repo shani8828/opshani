@@ -136,7 +136,7 @@ const GuestLecture = () => {
           ))}
 
           {/* waiting animation */}
-          <div className="flex flex-col items-center justify-center mb-20">
+          {/* <div className="flex flex-col items-center justify-center mb-20">
             <DotLottieReact
               className="w-4/5 md:w-1/2"
               src="https://lottie.host/b3097079-bc6f-47ab-9c27-f39e395e8e83/2ptNd6xx7N.lottie"
@@ -161,7 +161,7 @@ const GuestLecture = () => {
                 </motion.span>
               ))}
             </h1>
-          </div>
+          </div> */}
         </div>
       </div>
       <Gradient />

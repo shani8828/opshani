@@ -55,11 +55,11 @@ const scheduleDataDay2 = [
 	},
 	{
 		id: 6,
-		title: "Adani AI, Guest Lecture", //no such guest
+		title: "Dr. Tanushyam Chattopadhyay, Guest Lecture", //no such guest
 		time: "02:00 PM",
 		location: "Raman Auditorium",
 		link: "https://maps.app.goo.gl/kvrZb65Pt98DjLN8A",
-		image: null,
+		image: "assets/schedule/Tanushyam_Chattopadhyay.png",
 		position: "left",
 	},
 	{

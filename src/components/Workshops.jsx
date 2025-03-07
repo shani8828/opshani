@@ -115,7 +115,7 @@ const Workshops = () => {
           ))}
 
           {/* waiting animation*/}
-          <div className="md:flex even:md:translate-y-[10rem] p-0.25 rounded-[2.5rem] bg-n-7 relative overflow-hidden workshop-shine flex items-center justify-center min-h-[500px] md:min-h-[800px]">
+          {/* <div className="md:flex even:md:translate-y-[10rem] p-0.25 rounded-[2.5rem] bg-n-7 relative overflow-hidden workshop-shine flex items-center justify-center min-h-[500px] md:min-h-[800px]">
             <div className="relative p-8 rounded-[2.4375rem] overflow-hidden xl:p-15 flex items-center justify-center">
               <div className="h2 md:h4 mb-4 flex items-center justify-center">
                 <DotLottieReact
@@ -128,7 +128,7 @@ const Workshops = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
           <Gradient />
         </div>
