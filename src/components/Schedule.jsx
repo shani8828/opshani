@@ -13,7 +13,7 @@ import { GradientLight } from "./design/Benefits.jsx";
 const Schedule = () => {
 	document.title = "Schedule | Optima 2025";
 	const parallaxRef = useRef(null);
-	const [day, setDay] = useState(0);
+	const [day, setDay] = useState(1);
 	return (
 		<Section id="schedule" className="TL-page">
 			<div className="container relative z-2">
