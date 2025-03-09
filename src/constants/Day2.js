@@ -12,7 +12,7 @@ const scheduleDataDay2 = [
 		id: 1,
 		title: "Stratathon Slot-II",
 		time: "09:00 AM",
-		location: "NR-312, Nalanda Classroom Complex",
+		location: "NR-311, Nalanda Classroom Complex",
 		link: "https://maps.app.goo.gl/4E9RiAob3fenRGjj9",
 		image: "assets/schedule/Stratathon.png",
 		position: "right",
