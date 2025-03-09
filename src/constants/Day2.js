@@ -93,7 +93,7 @@ const scheduleDataDay2 = [
 		id: 9,
 		title: "Closing Ceremony",
 		time: "04:00 PM",
-		location: "Seminar Room, Dept. of Industrial and Systems Engg.",
+		location: "QEDM, Dept. of Industrial and Systems Engg. {For Participants}",
 		link: "https://maps.app.goo.gl/WiBZ3Af6SkEHMK2p9",
 		image: null,
 		position: "right",
