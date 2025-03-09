@@ -3,7 +3,7 @@ const scheduleDataDay2 = [
 		id: 0,
 		title: "Operheimer Slot-II",
 		time: "09:00 AM",
-		location: "C3, Department of Industrial and Systems Engineering",
+		location: "C2, Department of Industrial and Systems Engineering",
 		link: "https://maps.app.goo.gl/WiBZ3Af6SkEHMK2p9",
 		image: "assets/schedule/Operheimer.png",
 		position: "left",
