@@ -10,8 +10,9 @@ import {
 	catfour,
 } from "../constants/Rules";
 import { Gradient } from "./design/Roadmap";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Loading from "./design/Loading";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Payment = () => {
 	document.title = "Payment | Optima 2025";
@@ -68,16 +69,24 @@ const Payment = () => {
 	return (
 		<Section id="rules">
 			<div className="container relative z-2">
+				<div className="h2 md:h4 mb-4 flex items-center justify-center">
+					<DotLottieReact
+						className="w-full max-w-[428px] mx-auto rounded-xl opacity-80"
+						src="https://lottie.host/8f19a5fc-91fe-471f-b929-59b0d06ec114/TuGaJRAs5z.lottie"
+						loop
+						autoplay
+						width={428}
+						height={428}
+					/>
+				</div>
+				
 				<Heading
-					className="md:max-w-md lg:max-w-2xl text-center"
-					title="What will you get?"
+					className="md:max-w-md lg:max-w-2xl text-center pt-15"
+					title="What you missed this year?"
 				/>
-				<BackgroundCircles />
 				<div className="rounded-lg p-0.25 w-full">
 					{error && (
-						<div className="text-red-500 text-center mb-4">
-							{error}
-						</div>
+						<div className="text-red-500 text-center mb-4">{error}</div>
 					)}
 					<div className="rounded-lg overflow-hidden relative  w-full p-4 pt-0 gap-4 flex flex-col mb-8">
 						<div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
@@ -92,16 +101,59 @@ const Payment = () => {
 										<h1 className="text-xl font-semibold lg:text-2xl">
 											{items.title}
 										</h1>
-										<div className="opacity-80 pr-2 md:pr-3">
-											{items.desc}
-										</div>
+										<div className="opacity-80 pr-2 md:pr-3">{items.desc}</div>
 									</div>
 								</div>
 							))}
 						</div>
 					</div>
+					<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 rounded-md p-3">
+						<div className="border-2 border-white/20 rounded-md p-3">
+							<Link to="/competitions" className="flex flex-col items-center">
+								<DotLottieReact
+									className="w-full max-w-[428px] mx-auto rounded-xl opacity-80"
+									src="https://lottie.host/0db02718-dcbe-44bd-bbc4-5d8ec2e6f457/rU7LETqSNV.lottie"
+									loop
+									autoplay
+									width={428}
+									height={428}
+								/>
+								<h1 className="text-xl font-semibold lg:text-2xl">
+								8 Thrilling Competitions
+								</h1>
+							</Link>
+						</div>
+						<div className="border-2 border-white/20 rounded-md p-3">
+						<Link to="/guest-lectures" className="flex flex-col items-center">
+							<DotLottieReact
+								className="w-full max-w-[428px] mx-auto rounded-xl opacity-80"
+								src="https://lottie.host/50e17415-74d1-4549-98aa-bd11e53bc9c7/o4m3UuWVAl.lottie"
+								loop
+								autoplay
+								width={428}
+								height={428}
+							/>
+							<h1 className="text-xl font-semibold lg:text-2xl">
+								Inspiring Guest Lectures
+							</h1>
+						</Link>
+						</div>
+						<div className="border-2 border-white/20 rounded-md p-3">
+						<Link to="/workshops" className="flex flex-col items-center">
+							<DotLottieReact
+								className="w-full max-w-[428px] mx-auto rounded-xl opacity-80"
+								src="https://lottie.host/5e55b28e-d44a-497a-8122-c176a19c0c0a/rkLW4MdNXj.lottie"
+								loop
+								autoplay
+								width={428}
+								height={428}
+							/>
+							<h1 className="text-xl font-semibold lg:text-2xl">An Immersive Workshop Series</h1>
+						</Link>
+						</div>
+					</div>
 				</div>
-				<div className="rounded-lg p-0.25 bg-conic-gradient mb-6 w-full">
+				{/* <div className="rounded-lg p-0.25 bg-conic-gradient mb-6 w-full">
 					<div className="rounded-lg bg-n-8 overflow-hidden relative w-full flex flex-col p-4 gap-4 h-full">
 						<h1 className="text-2xl md:text-3xl lg:text-4xl text-center font-semibold mb-2">
 							Payment Instructions
@@ -114,8 +166,8 @@ const Payment = () => {
 						))}
 						<Gradient />
 					</div>
-				</div>
-				<div className="mb-6 w-full">
+				</div> */}
+				{/* <div className="mb-6 w-full">
 					<div className="rounded-lg bg-none overflow-hidden relative flex items-center justify-center mb-8 w-full h-full pb-4">
 						<a
 							href={
@@ -144,8 +196,8 @@ const Payment = () => {
 							</button>
 						</a>
 					</div>
-				</div>
-				<div className="rounded-lg p-0.25 bg-conic-gradient w-full">
+				</div> */}
+				{/* <div className="rounded-lg p-0.25 bg-conic-gradient w-full">
 					<div className="rounded-lg bg-n-8 overflow-hidden relative w-full flex flex-col p-4 gap-4 h-full">
 						<h1 className="text-2xl md:text-3xl lg:text-4xl text-center font-semibold mb-2">
 							Accomodation Rules
@@ -158,7 +210,7 @@ const Payment = () => {
 						))}
 						<Gradient />
 					</div>
-				</div>
+				</div> */}
 			</div>
 			<Gradient />
 		</Section>
