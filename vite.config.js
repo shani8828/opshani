@@ -17,5 +17,6 @@ export default defineConfig({
     react(),
     svgr() // this is the plugin for importing SVGs as React components
   ],
+  base:"/opshani"
 });
 

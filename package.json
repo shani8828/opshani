@@ -1,13 +1,16 @@
 {
   "name": "optima",
   "private": true,
+  "homepage": "https://shani8828.github.io/<opshani/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -22,6 +25,7 @@
     "flowbite": "^2.5.2",
     "flowbite-react": "^0.10.2",
     "framer-motion": "^11.18.2",
+    "gh-pages": "^6.3.0",
     "lottie-web": "^5.12.2",
     "lucide-react": "^0.471.1",
     "react": "^18.2.0",
